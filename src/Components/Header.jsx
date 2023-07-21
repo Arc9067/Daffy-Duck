@@ -4,11 +4,20 @@ const Header = () => {
   return (
     <header className="py-3 w-full bg-[#F15D56] absolute">
       <nav className="container flex items-center gap-14 justify-between lg:justify-start">
-        <a href="" className="font-special text-3xl ">
+        <a
+          href=""
+          className="font-special text-3xl "
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           Daffy Duck
         </a>
 
-        <ul className="mx-auto hidden lg:flex items-center gap-14 font-special">
+        <ul
+          data-aos="fade-left"
+          data-aos-duration="900"
+          className="mx-auto hidden lg:flex items-center gap-14 font-special"
+        >
           <li className="text-xl capitalize hover:text-black">
             <a href="">home</a>
           </li>
@@ -24,6 +33,8 @@ const Header = () => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
           className="transition hover:scale-95 cursor-pointer block lg:hidden"
+          data-aos="fade-left"
+          data-aos-duration="900"
         >
           <rect
             x="0.5"

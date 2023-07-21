@@ -8,10 +8,14 @@ const Hero = () => {
       id="hero"
     >
       <div className="container flex items-center flex-col gap-5">
-        <h1 className="text-6xl text-center md:text-9xl font-special">
+        <h1
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="text-6xl text-center md:text-9xl font-special"
+        >
           Daffy Duck
         </h1>
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="" data-aos="fade-left" data-aos-duration="1100" />
       </div>
     </section>
   );

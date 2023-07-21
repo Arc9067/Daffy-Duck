@@ -5,8 +5,17 @@ const Footer = () => {
   return (
     <footer className="py-14 w-full">
       <div className="container flex flex-col gap-8">
-        <img src={Logo2} alt="" className="w-20" />
-        <div className="text-white text-2xl font-normal max-w-xl">
+        <img
+          src={Logo2}
+          alt=""
+          className="w-20"
+          data-aos="flip-left"
+          data-aod-duration="600"
+        />
+        <div
+          data-aos="fade-up"
+          className="text-white text-2xl font-normal max-w-xl"
+        >
           Step into the devious world of "Daffy Duck" and unleash chaos on the
           city of Ethereum! 🦆
         </div>

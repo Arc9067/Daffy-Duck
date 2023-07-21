@@ -7,16 +7,17 @@ const About = () => {
         <article className="flex items-center justify-center flex-col text-center gap-5">
           <h1 className="text-white text-7xl font-special">About Daffy Duck</h1>
           <div className="text-center text-white text-2xl font-normal max-w-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            repellat facilis, quaerat ducimus sequi, fuga quasi quam,
-            voluptatibus ipsam atque necessitatibus quia distinctio corporis
-            impedit reiciendis maiores libero. Voluptate, hic accusamus!
-            Corrupti, quibusdam sunt, sint ullam quam vel numquam unde expedita
-            facilis quisquam veniam ut, eveniet officia similique at harum!
+            Introducing "Daffy Duck Coin" - the wildest crypto project in town!
+            With Daffy Duck managing your finances on Ethereum, get ready to
+            quack your way to financial freedom! Hold "DFFY" tokens for a voice
+            in crazy decisions, from wild DeFi features to moon-bound ACME
+            rockets. Our top-notch security ensures no Elmer Fudds mess with us.
+            Join our zany adventure and make crypto history - the pot of gold
+            awaits in the cryptoverse! Let's quack it up on Ethereum! 🚀💰🦆
           </div>
           <a
             href=""
-            className="w-[173px] h-[60px] px-8 py-4 bg-[#F15D56] rounded shadow justify-center items-center gap-2.5 inline-flex"
+            className=" h-[60px] px-8 py-4 bg-[#F15D56] rounded shadow justify-center items-center gap-2.5 inline-flex"
           >
             <div className="text-white text-xl font-special leading-7 tracking-tight">
               BUY NOW

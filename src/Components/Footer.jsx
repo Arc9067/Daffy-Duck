@@ -7,9 +7,8 @@ const Footer = () => {
       <div className="container flex flex-col gap-8">
         <img src={Logo2} alt="" className="w-20" />
         <div className="text-white text-2xl font-normal max-w-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-          doloribus maiores et nemo perspiciatis excepturi minus aspernatur hic,
-          asperiores nesciunt!
+          Step into the devious world of "Daffy Duck" and unleash chaos on the
+          city of Ethereum! 🦆
         </div>
 
         <div className="flex items-center gap-6">

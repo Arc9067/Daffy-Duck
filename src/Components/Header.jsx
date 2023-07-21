@@ -15,12 +15,6 @@ const Header = () => {
           <li className="text-xl capitalize hover:text-black">
             <a href="">about</a>
           </li>
-          <li className="text-xl capitalize hover:text-black">
-            <a href="">tokenomics</a>
-          </li>
-          <li className="text-xl capitalize hover:text-black">
-            <a href="">roadmap</a>
-          </li>
         </ul>
 
         <svg
